@@ -71,8 +71,9 @@ Você pode visualizar o resultado do Dashboard [**CLICANDO AQUI!**](https://gith
 1. Os clientes desta Edtech tendem em sua maior quantidade ser do gênero feminino;
 2. A grande parte dos leads está interessado em recolocar-se no mercado de trabalho;_[Looking for a job]_ ou apresentam graduação tecnológica _[B.Tech]_;
 3. As top plataformas em que ocorre a maior parte dos atendimentos são: 1-Social media; 2-SEO; 3- Email Marketing.
-4. A média de idade do público-alvo é de 22 anos;
-5. **[PLUS+]** Através de uma análise exploratória, foi identificado como principal motivo de desistência no fechamento de matrículas o preço atual da formação - _'Can't Afford Reason'_;
+4. Os leads que apresentam maior interesse e média de tempo assistido nas aulas de demonstração são aqueles que tem como idioma de preferência o Inglês ou Telegu;
+5. A média de idade do público-alvo é de 22 anos;
+6. **[PLUS+]** Através de uma análise exploratória, foi identificado como principal motivo de desistência no fechamento de matrículas o preço atual da formação - _'Can't Afford Reason'_;
 
 ### ◾ Tecnologias Utilizadas: 
 <div <br> 
