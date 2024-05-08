@@ -17,6 +17,6 @@ Dentro da própria plataforma de BI, neste caso o Metabase, foi feita uma análi
 
 ### ◾Extract,Transform, And Load(ETL): 
 
-Não foram necessárias correções de erros nos dados, apenas realizamos manipulações para filtrarmos e organizarmos os dados da forma que precisamos com o objetivo de construir os gráficos que serão imputados no Dashboard de acordo com os requisitos de negócio e dados atribuídos neste projeto. 
+Não foram necessárias correções de erros nos dados, apenas realizamos manipulações para filtrarmos e organizarmos os dados da forma que precisamos com o objetivo de construir os gráficos que serão imputados no Dashboard de acordo com o requisito de negócio e  de dados logo explícitos neste projeto. 
 
 ### ◾Requisitos de dados: 
