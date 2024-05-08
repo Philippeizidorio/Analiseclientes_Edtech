@@ -21,23 +21,50 @@ Não foram necessárias correções de erros nos dados, apenas realizamos manipu
 
 ### ◾Requisitos de dados: 
 
-- **Quantidade de pessoas pelo gênero;**
-  
-  ***CÓDIGO →***
+- **Quantidade de pessoas pelo gênero;**  
 - **Média de idade dos leads;**
 - **Quantidade de pessoas por tipo de graduação;**
 - **Média do percentual das aulas de demonstração assistidas;_[deve ser acima de 0.5]_**
 - **Quantidade de usuários atendidos por plataforma ao longo do tempo.**
 
-### ◾ Criação Do Dashboard:
+### ◾Criação Do Dashboard:
 
-Para criação desse dashboard, utilizei os seguintes tipos de gráficos no Metabase ↓
+Para criação desse dashboard, apliquei as seguintes manipulações e tipos de gráficos no Metabase ↓
+ 
+1. Gráfico tipo Pizza;_(Distribuição de gênero)_
 
-1. Gráfico tipo Pizza;
-2. Gráfico tipo Cartão;
-3. Gráfico tipo Barras;
-4. Gráfico tipo Tabela;
-5. Gráfico tipo Linhas.
+- **CÓDIGO →** _Select COUNT(*) as quantidade, gender as genero
+              From leads_basic_details
+              Group by genero_
+
+2. Gráfico tipo Cartão;_(Média de idade)_
+
+- **CÓDIGO →** _Select CAST(AVG(age) as unsigned)
+              From leads_basic_details
+
+3. Gráfico tipo Barras;_(Clientes Por G.D.E.)_
+
+- **CÓDIGO →** _Select COUNT(*) as quantidade, current_education as Grau_de_escolaridade
+                From leads_basic_details
+                Group By Grau_de_escolaridade
+                Order By quantidade ASC
+
+4. Gráfico tipo Tabela;_(Médias Watched)_
+
+- **CÓDIGO →** _Select AVG(watched_percentage) as media, language as lingua
+               From leads_demo_watched_details
+               Where watched_percentage > 0.5
+               Group By lingua
+               Order by media DESC
+
+5. Gráfico tipo Linhas._(Quant.Chd.P.P)_
+
+- **CÓDIGO →**
+-               Select COUNT(*), call_done_date as data, lead_gen_source as fonte, call_status as situacao
+-               From leads_interaction_details
+-               Left join leads_basic_details on leads_basic_details.lead_id =  leads_interaction_details.lead_id
+-               Where call_status = 'successful'
+-               Group by data,fonte
 
 Você pode visualizar o resultado do Dashboard [**CLICANDO AQUI!**](https://github.com/Philippeizidorio/Analiseclientes_Edtech/blob/main/Dashboard%20-%20Edtech.pdf) [Arquivo em .pdf deste repositório] 
 
