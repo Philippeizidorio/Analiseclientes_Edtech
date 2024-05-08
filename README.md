@@ -15,4 +15,8 @@ Dentro da própria plataforma de BI, neste caso o Metabase, foi feita uma análi
 - d.Base 4 = leads_demo_watched_details _[Informações sobre clientes que aceitaram a demonstração]_
 - e.Base 5 = leads_reasons_for_no_interest _[Motivos de não interesse por parte do Lead]_
 
+### ◾Extract,Transform, And Load(ETL): 
+
+Não foram necessárias correções de erros nos dados, apenas realizamos manipulações para filtrarmos e organizarmos os dados da forma que precisamos com o objetivo de construir os gráficos que serão imputados no Dashboard de acordo com os requisitos de negócio e dados atribuídos neste projeto. 
+
 ### ◾Requisitos de dados: 
