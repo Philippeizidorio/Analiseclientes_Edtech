@@ -68,8 +68,8 @@ Para criação desse dashboard, apliquei as seguintes manipulações e tipos de 
 Você pode visualizar o resultado do Dashboard [**CLICANDO AQUI!**](https://github.com/Philippeizidorio/Analiseclientes_Edtech/blob/main/Dashboard%20-%20Edtech.pdf) [Arquivo em .pdf deste repositório] 
 
 ### ◾ Através desse Dashboard, podemos extrair os seguintes insights:
-1. Os clientes desta Edtech tendem a ser feminino em sua quantidade;
-2. A grande parte dos leads está atrás de recolocação no mercado de trabalho;_[Looking for a job]_ ou apresentam graduação tecnológica. 
+1. Os clientes desta Edtech tendem em sua maior quantidade ser do gênero feminino;
+2. A grande parte dos leads está interessado em recolocar-se no mercado de trabalho;_[Looking for a job]_ ou apresentam graduação tecnológica _[B.Tech]_;
 3. As top plataformas em que ocorre a maior parte dos atendimentos são: 1-Social media; 2-SEO; 3- Email Marketing.
 4. A média de idade do público-alvo é de 22 anos;
 5. **[PLUS+]** Através de uma análise exploratória, foi identificado como principal motivo de desistência no fechamento de matrículas o preço atual da formação - _'Can't Afford Reason'_;
