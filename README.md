@@ -31,40 +31,39 @@ Não foram necessárias correções de erros nos dados, apenas realizamos manipu
 
 Para criação desse dashboard, apliquei as seguintes manipulações e tipos de gráficos no Metabase ↓
  
-1. Gráfico tipo Pizza;_(Distribuição de gênero)_
+***1.Gráfico tipo Pizza;***_(Distribuição de gênero)_
 
 - **CÓDIGO →** _Select COUNT(*) as quantidade, gender as genero
               From leads_basic_details
               Group by genero_
 
-2. Gráfico tipo Cartão;_(Média de idade)_
+***2.Gráfico tipo Cartão;***_(Média de idade)_
 
 - **CÓDIGO →** _Select CAST(AVG(age) as unsigned)
-              From leads_basic_details
+              From leads_basic_details_
 
-3. Gráfico tipo Barras;_(Clientes Por G.D.E.)_
+***3. Gráfico tipo Barras;***_(Clientes Por G.D.E.)_
 
 - **CÓDIGO →** _Select COUNT(*) as quantidade, current_education as Grau_de_escolaridade
                 From leads_basic_details
                 Group By Grau_de_escolaridade
-                Order By quantidade ASC
+                Order By quantidade ASC_
 
-4. Gráfico tipo Tabela;_(Médias Watched)_
+***4. Gráfico tipo Tabela;***_(Médias Watched)_
 
 - **CÓDIGO →** _Select AVG(watched_percentage) as media, language as lingua
                From leads_demo_watched_details
                Where watched_percentage > 0.5
                Group By lingua
-               Order by media DESC
+               Order by media DESC_
 
-5. Gráfico tipo Linhas._(Quant.Chd.P.P)_
+***5. Gráfico tipo Linhas.***_(Quant.Chd.P.P)_
 
-- **CÓDIGO →**
--               Select COUNT(*), call_done_date as data, lead_gen_source as fonte, call_status as situacao
--               From leads_interaction_details
--               Left join leads_basic_details on leads_basic_details.lead_id =  leads_interaction_details.lead_id
--               Where call_status = 'successful'
--               Group by data,fonte
+- **CÓDIGO →** _Select COUNT(*), call_done_date as data, lead_gen_source as fonte, call_status as situacao
+                From leads_interaction_details
+                Left join leads_basic_details on leads_basic_details.lead_id =  leads_interaction_details.lead_id
+                Where call_status = 'successful'
+                Group by data,fonte_
 
 Você pode visualizar o resultado do Dashboard [**CLICANDO AQUI!**](https://github.com/Philippeizidorio/Analiseclientes_Edtech/blob/main/Dashboard%20-%20Edtech.pdf) [Arquivo em .pdf deste repositório] 
 
