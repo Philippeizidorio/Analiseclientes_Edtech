@@ -20,3 +20,9 @@ Dentro da própria plataforma de BI, neste caso o Metabase, foi feita uma análi
 Não foram necessárias correções de erros nos dados, apenas realizamos manipulações para filtrarmos e organizarmos os dados da forma que precisamos com o objetivo de construir os gráficos que serão imputados no Dashboard de acordo com o requisito de negócio e  de dados logo explícitos neste projeto. 
 
 ### ◾Requisitos de dados: 
+
+- **Quantidade de pessoas pelo gênero;**
+- **Média de idade dos leads;**
+- **Quantidade de pessoas por tipo de graduação;**
+- **Média do percentual das aulas de demonstração assistidas;(deve ser acima de 0.5)**
+- **Quantidade de usuários atendidos por plataforma ao longo do tempo.**
