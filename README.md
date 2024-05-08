@@ -1,5 +1,5 @@
 # Dashboard No Metabase: Análise Da Aquisição De Clientes - Startup De Educação(Edtech) 📊🔍
-
+![Alt ou título da imagem](https://github.com/Philippeizidorio/Analiseclientes_Edtech/assets/145637595/f7210ed3-a01e-4221-900a-4dc36a6b22d9)
 
 ### ◾Contexto: 
 
