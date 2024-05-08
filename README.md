@@ -24,7 +24,7 @@ Não foram necessárias correções de erros nos dados, apenas realizamos manipu
 - **Quantidade de pessoas pelo gênero;**  
 - **Média de idade dos leads;**
 - **Quantidade de pessoas por tipo de graduação;**
-- **Média do percentual das aulas de demonstração assistidas;_[deve ser acima de 0.5]_**
+- **Média do percentual das aulas de demonstração assistidas por idioma;_[Acima de 0.5]_**
 - **Quantidade de usuários atendidos por plataforma ao longo do tempo.**
 
 ### ◾Criação Do Dashboard:
