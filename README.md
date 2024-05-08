@@ -26,3 +26,41 @@ Não foram necessárias correções de erros nos dados, apenas realizamos manipu
 - **Quantidade de pessoas por tipo de graduação;**
 - **Média do percentual das aulas de demonstração assistidas;_[deve ser acima de 0.5]_**
 - **Quantidade de usuários atendidos por plataforma ao longo do tempo.**
+
+### ◾ Criação Do Dashboard:
+
+Para criação desse dashboard, utilizei os seguintes tipos de gráficos no Metabase ↓
+
+1. Gráfico tipo Pizza;
+2. Gráfico tipo Cartão;
+3. Gráfico tipo Barras;
+4. Gráfico tipo Tabela;
+5. Gráfico tipo Linhas.
+
+Você pode visualizar o resultado do Dashboard [**CLICANDO AQUI!**](https://github.com/Philippeizidorio/Analiseclientes_Edtech/blob/main/Dashboard%20-%20Edtech.pdf) [Arquivo em .pdf deste repositório] 
+
+### ◾ Através desse Dashboard, podemos extrair os seguintes insights:
+1. Os clientes desta Edtech tendem a ter um público feminino em maior quantidade;
+2. A grande parte dos leads está atrás de recolocação no mercado de trabalho;_[Looking for a job]_ ou apresentam graduação tecnológica. 
+3. As top plataformas em que ocorre  a maior parte dos atendimentos são: 1-Social media; 2-SEO; 3- Email Marketing.
+4. A média de idade do público-alvo é de 22 anos;
+5. **[PLUS+]** Através de uma análise exploratória, foi identificado como principal motivo de desistência no fechamento de matrículas o preço atual da formação - _'Can't Afford Reason'_;
+
+### ◾ Tecnologias Utilizadas: 
+<div <br> 
+<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
+<img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff">
+</div> 
+
+## Autor:
+
+<img  src="https://github.com/Philippeizidorio/Dashboard_PowerBIMarketing/assets/145637595/dd3c301c-3cd3-4808-92c8-a321553f7acf" width="80" alt="cognitiveclass.ai logo" align="left" /> 
+
+### &nbsp;&nbsp;Philippe Izidório
+
+<p>
+&nbsp;&nbsp;Cientista de Dados / Business Intelligence / Analista de Dados<br/>
+&nbsp;&nbsp;LinkedIn: https://www.linkedin.com/in/philippeizidorio/<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail: euphilippeizidorio@gmail.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portifólio de projetos em Data Science: https://github.com/Philippeizidorio
+</p>
