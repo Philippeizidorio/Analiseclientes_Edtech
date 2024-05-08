@@ -8,7 +8,7 @@ negócios desenvolver um plano de ação que será utilizado para auxiliar no es
 
 ### ◾Análise Exploratória De Dados(AED): 
 
-Dentro da própria plataforma de BI, neste caso o Metabase, foi feita uma análise exploratória entre 5 bases a fim de entendermos os dados e extrairmos insights levando em consideração os vários aspectos da aquisição de novos clientes no momento atual da empresa.
+Dentro da própria plataforma de BI, neste caso o Metabase, foi feita uma análise exploratória entre 5 bases de um banco ***Mysql*** a fim de entendermos os dados e extrairmos insights levando em consideração os vários aspectos da aquisição de novos clientes no momento atual da empresa.
 - **a.Base 1** = leads_basic_details → _[Informações Básicas Dos Clientes]_
 - **b.Base 2** = sales_managers_assigned_leads_details → _[Info. De Possíveis Leads atribuídos aos Ger. De Vendas]_
 - **c.Base 3** = leads_interaction_details → _[Informações sobre a interação do cliente com o negócio]_
@@ -22,6 +22,8 @@ Não foram necessárias correções de erros nos dados, apenas realizamos manipu
 ### ◾Requisitos de dados: 
 
 - **Quantidade de pessoas pelo gênero;**
+  
+  ***CÓDIGO →***
 - **Média de idade dos leads;**
 - **Quantidade de pessoas por tipo de graduação;**
 - **Média do percentual das aulas de demonstração assistidas;_[deve ser acima de 0.5]_**
